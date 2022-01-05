@@ -24,6 +24,7 @@ See README.md in the respective folders for more information about usage and app
 
 * [`find_missing_candlepin_product_contents.rb`](find_missing_candlepin_product_contents/README.md) (see [1931027](https://bugzilla.redhat.com/show_bug.cgi?id=1931027))
 * [`download_debian_keyring.sh`](download_debian_keyring/README.md) (see [Content Menu > Content Credentials](https://docs.orcharhino.com/or/docs/sources/management_ui/the_content_menu/content_credentials.html))
+* [`prepare_offline_installation.py`](prepare_offline_installation/README.md) (see [orcharhino Offline Installation Guide](https://docs.orcharhino.com/or/docs/sources/installation_and_maintenance/orcharhino_offline_installation_guide.html))
 
 
 # Contribute
