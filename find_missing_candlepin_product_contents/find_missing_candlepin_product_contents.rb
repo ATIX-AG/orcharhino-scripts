@@ -129,6 +129,12 @@ SELECT c.cp_content_id
           "VALUES #{insert_sql.join(', ')};"
     puts sql
     restore_cmds << sql
+
+    # clear entity version of affected product to avoid versioning and convergence issues
+    sql = "UPDATE cp2_products SET entity_version = NULL WHERE uuid = '#{product_uuid}';"
+    puts sql
+
+    restore_cmds << sql
   end
 end
 # rubocop:enable Metrics/BlockLength
